@@ -1,0 +1,122 @@
+body {
+    background-color: ghostwhite;
+    font-family: 'Arial', sans-serif;
+    font-size: calc(0.3vw + 13pt);
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+/** ----- NAVBAR CSS ----- **/
+.navbar {
+    position: fixed;
+    display: block;
+    width: 14rem;
+    background-color: #000;
+    background-image: url("../pictures/css/diagmonds.png");
+    font-family: 'Bree Serif', serif;
+    color: #FFF;
+    letter-spacing: 1.5px;
+}
+
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar a:link {
+    color: rgba(255, 255, 225, 0.6);
+}
+
+.navbar-nav li.active > a, .navbar a:hover {
+    color: #FFFFFF;
+}
+
+.nav-separator {
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px dotted #FFFFFF;
+}
+
+/** ----- CV-SECTIONS CSS ----- **/
+.cv-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14rem;
+    min-height: 100vh;
+    max-width: 80rem;
+}
+
+section {
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 1.5px;
+}
+
+h1 {
+    font-size: calc(3.5vw + 16pt);
+}
+
+h2 {
+    font-size: calc(1.5vw + 16pt);
+    color: #999;
+}
+
+h3 {
+    font-size: calc(1.5vw + 15pt);
+}
+
+h4 {
+    font-size: calc(0.6vw + 14pt);
+    font-weight: bold;
+}
+
+h5 {
+    font-size: calc(0.2vw + 13pt);
+    font-weight: bold;
+}
+
+.apropos ul {
+    list-style-type: none;
+}
+
+.apropos ul li {
+    display: inline;
+}
+
+.apropos a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: #CCCCCC;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .navbar {display: flex; width: auto;}
+    .navbar-expand-lg .navbar-nav {height: auto;}
+    .container-fluid {margin-top: 3rem}
+    .cv-sections {margin-left: auto;min-height: auto;}
+    .nav-separator {display: none;}
+}
+
+
+/*@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
