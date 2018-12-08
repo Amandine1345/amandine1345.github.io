@@ -21,11 +21,6 @@ body {
     letter-spacing: 1.5px;
 }
 
-.navbar-brand {
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-}
-
 .navbar-expand-lg .navbar-nav {
     flex-direction: column;
     height: 100vh;
@@ -50,10 +45,14 @@ body {
 .cv-sections {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     margin-left: 14rem;
     min-height: 100vh;
     max-width: 80rem;
+}
+
+.myself {
+    justify-content: center;
 }
 
 section {
@@ -103,6 +102,13 @@ h5 {
 .card {
     background-color: #CCCCCC;
 }
+
+.skills ul {
+    list-style-type: none;
+}
+.skills li i {vertical-align: middle;}
+
+.skills .badge {font-size: 60%;}
 
 @media (min-width: 320px) and (max-width: 800px) {
     .navbar {display: flex; width: auto;}
