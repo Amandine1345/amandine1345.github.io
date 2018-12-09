@@ -110,19 +110,10 @@ h5 {
 
 .skills .badge {font-size: 60%;}
 
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 991px) {
     .navbar {display: flex; width: auto;}
     .navbar-expand-lg .navbar-nav {height: auto;}
     .container-fluid {margin-top: 3rem}
     .cv-sections {margin-left: auto;min-height: auto;}
     .nav-separator {display: none;}
 }
-
-
-/*@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
