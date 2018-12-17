@@ -4,7 +4,7 @@ Personal page for introduce myself, introduce my professional experience and my 
 
 [amandine1345.github.io](https://amandine1345.github.io)
 
-![amandine1345](https://drive.google.com/uc?export=view&id=1lRjFR-RExgJizpNK-1VQ4NN5BYhlIcfg)
+![amandine1345](https://drive.google.com/uc?export=view&id=1DnOkL9Hpm55QbUmT-IXhUaANJU1UWlxW)
 
 ## Langages
 
