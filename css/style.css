@@ -2,7 +2,11 @@ body {
     font-family: 'Raleway', Arial, sans-serif;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: black
+}
 
+h1,
 h2,
 .navbar-brand {
     font-family: 'Courgette', cursive;
@@ -12,30 +16,67 @@ h2,
     height: 40vh;
     overflow: hidden;
     background-image: url('../pictures/css/secondary-header.jpg');
-    background-position: center 39%;
+    background-position: center center;
     background-size: cover;
-    /*filter: grayscale(100%);*/
 }
 
-/*.secondary-header > div h1 {*/
-    /*color: #000;*/
-    /*padding: 0.2em 0 0.2em 0;*/
-    /*text-align: center;*/
-    /*!*text-shadow: 2px 2px 2px #333;*!*/
-    /*text-transform: uppercase;*/
-    /*font-weight: bold;*/
-/*}*/
 
 section {
     min-height: 50vh;
     justify-items: center;
 }
 
-/**
- * About Section
- */
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #999;
+}
 
+.icons-contact {
+    background-image: url('../pictures/css/icons-contact.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
 
+.icons-contact ul {
+    list-style: none;
+    margin-top: 130px;
+    margin-left: 105px;
+}
+
+.icons-contact li {
+    display: inline;
+}
+
+@media (max-width: 576px) {
+    .icons-contact ul {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 576px) {
+    .icons-contact ul {
+        margin-left: 130px;
+    }
+}
+
+@media (min-width: 768px) {
+    .icons-contact ul {
+        margin-left: 220px;
+    }
+}
+
+@media (min-width: 992px) {
+    .icons-contact ul {
+        margin-left: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .icons-contact ul {
+        margin-left: 105px;
+    }
+}
 
 /*body {*/
     /*background-color: ghostwhite;*/
