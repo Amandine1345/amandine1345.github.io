@@ -12,8 +12,12 @@ h2,
     font-family: 'Courgette', cursive;
 }
 
-h2 {
+.skills h2 {
     border-bottom: 1px dashed #FFF;
+}
+
+h2 {
+    border-bottom: 1px dashed #000;
 }
 
 .secondary-header {
@@ -34,6 +38,10 @@ hr {
     max-width: 50px;
     border-width: 3px;
     border-color: #999;
+}
+
+.education hr {
+    border-color: #17a2b8;
 }
 
 .icons-contact {
