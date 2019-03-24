@@ -44,6 +44,10 @@ hr {
     border-color: #17a2b8;
 }
 
+.experience .card-title {
+    min-height: 48px;
+}
+
 .icons-contact {
     background-image: url('../pictures/css/icons-contact.jpg');
     background-position: top center;
