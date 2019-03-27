@@ -8,7 +8,8 @@ body {
 
 h1,
 h2,
-.navbar-brand {
+.navbar-brand,
+footer {
     font-family: 'Courgette', cursive;
 }
 
@@ -78,6 +79,10 @@ hr {
 
 .icons-contact li {
     display: inline;
+}
+
+footer {
+    background-image: url('../pictures/css/60-lines.png');
 }
 
 @media (max-width: 576px) {
