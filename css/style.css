@@ -81,6 +81,17 @@ hr {
     display: inline;
 }
 
+.modal {
+    text-align: center;
+}
+
+.modal-dialog {
+    text-align: left; /* you'll likely want this */
+    max-width: 100%;
+    width: auto !important;
+    display: inline-block;
+}
+
 footer {
     background-image: url('../pictures/css/60-lines.png');
 }
