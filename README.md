@@ -1,6 +1,6 @@
 # amandine1345.github.io
 
-Personal page for introduce myself, introduce my professional experience and my projects.
+Personal page for introduce myself and my projects.
 
 [amandine1345.github.io](https://amandine1345.github.io)
 

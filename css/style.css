@@ -13,11 +13,11 @@ footer {
     font-family: 'Courgette', cursive;
 }
 
-.skills h2 {
+h2 {
     border-bottom: 1px dashed #FFF;
 }
 
-h2 {
+.skills h2 {
     border-bottom: 1px dashed #000;
 }
 
@@ -25,7 +25,7 @@ h2 {
     height: 40vh;
     overflow: hidden;
     background-image: url('../pictures/css/secondary-header.jpg');
-    background-position: center center;
+    background-position: top center;
     background-size: cover;
 }
 
@@ -41,28 +41,26 @@ hr {
     border-color: #999;
 }
 
-.experiences .card-title {
-    min-height: 48px;
+.card-header {
+    display: table;
+    width: 100%;
+    padding: 5px auto 5px auto;
 }
 
-.experience h2 {
-    border: none;
+.card-header p {
+    display: table-cell;
 }
 
-.experience h3 {
+.card-header p img {
+    width: 40px;
+}
+
+.card-body .card-title {
     font-weight: bold;
 }
 
-.experience-details ul {
-    list-style: none;
-}
-
-.experience-details li {
-    display: inline;
-}
-
-.experience-details li img {
-    width: 50px;
+.card-footer {
+    text-align: center;
 }
 
 .icons-contact {
@@ -86,7 +84,7 @@ hr {
 }
 
 .modal-dialog {
-    text-align: left; /* you'll likely want this */
+    text-align: left;
     max-width: 100%;
     width: auto !important;
     display: inline-block;
